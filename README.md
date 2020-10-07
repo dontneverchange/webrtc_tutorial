@@ -23,16 +23,27 @@ Components of WebRTC
 
 ------------------------------------
 process to create peer to peer connection
+
 1 - Client 1(Offerer) - creates an offer, sends to signaling server
+
 	1-Creates offer
+	
 	2-Sets Local Description
+	
 2 - Client 2(Answerer) - Requests for an offer, create an Answer
+
 	1-Sets Remote Description
+	
 	2-Creates Answer
+	
 	3-Sets Local Description
+	
 3 - Client 2(Answerer) - Sends the Answer to signaling server
+
 4 - Client 1(Offerer) - Receives the Answer
+
 	3-Sets Remote Description
+	
 
 
 
