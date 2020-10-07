@@ -16,7 +16,9 @@ webrtc -> NAT Traversal
 
 Components of WebRTC
 1 - python client (peer) - behind NAT
+
 2 - signaling server - AWS - (python)
+
 3 - turn/stun server - (without it, works locally, not acorss internet) AWS
 
 ------------------------------------
